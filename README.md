@@ -38,7 +38,8 @@ for Maven, add the following sections to your pom.xml (replacing $LATEST_VERSION
 
   <dependencies>
     <dependency>
-      <groupId>io.ipfs</groupId>
+      <dependency>
+	    <groupId>com.github.ipfs</groupId>
       <artifactId>java-ipfs-api</artifactId>
       <version>$LATEST_VERSION</version>
     </dependency>
